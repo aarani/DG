@@ -31,7 +31,7 @@
 		<MauiImage Include="Resources\Images\*" />
 		<MauiFont Include="Resources\Fonts\*" />
 		<None Remove="Platforms\Android\Resources\values\styles.xml" />
-
+		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.0-preview.4.8333" />
 		<MauiIcon Condition="$(TargetFramework.Contains('-android'))" Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.png" Color="#512BD4" ForegroundScale="0.60" />
 		<MauiIcon Condition="!$(TargetFramework.Contains('-android'))" Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.png" Color="#512BD4" />
 		<MauiSplashScreen Include="Resources\Images\logo.png" Color="White" Resize="True" BaseSize="10,10" />
